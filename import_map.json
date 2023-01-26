@@ -1,0 +1,11 @@
+{
+  "imports": {
+    "@jell/": "./modded/jell-machine/src/"
+  },
+  "scopes": {
+    "./modded/jell-machine/": {
+      "@core/": "./modded/jell-machine/src/core/",
+      "@utils/": "./modded/jell-machine/src/utils/"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "importMap": "./import_map.json",
+  "tasks": {
+    "build": "rm -rf jell-machine modded && git clone https://github.com/blaumeise20/jell-machine.git && deno run --allow-read=. --allow-write=. --allow-env jellCodemod.ts"
+  }
+}
